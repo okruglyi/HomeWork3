@@ -1,0 +1,44 @@
+@import "~normalize.css";
+:root {
+    --main-color: #FFE44D;
+    --main-darker: #FFAA0D;
+    --main-lighter:#FFF5C0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+}
+#components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+.content {
+    padding: 0 calc(50% - 650px);
+}
+.breadcrumb {
+    margin: 16px;
+}
+.button {
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+.ant-timeline {
+    padding: 30px 0 0 0;
+}
